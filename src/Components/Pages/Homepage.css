@@ -1,0 +1,10 @@
+.bg{
+    /* background: red; */
+    background-image: url("../SVG/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+ 
+}
