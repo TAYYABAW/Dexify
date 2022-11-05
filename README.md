@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+## 💬 Amazon Clone using React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Full-stack fully functional Amazon clone application using JavaScript, React.js, Material-UI, and some Firebase services like Firebase hosting and Cloud Database.
 
-## Available Scripts
+## 📝 What I have done in this project
 
-In the project directory, you can run:
+- Build it by [`create-react-app`](https://github.com/facebook/create-react-app)
+- Created different `components` for different functionalities like `orderScreen`, `CheckoutScreen`, `header`, `orderHistory` and more..
+- Used [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) to navigate among various paths of the application
+- Build clean **mobile friendly** user interface using [`material-ui`](https://material-ui.com/)
+- Used [`Cloud Firestore`](https://firebase.google.com/docs/firestore) to store all `Orders` in realtime database
+- Deployed it with [`Firebase Hosting`](https://firebase.google.com/docs/hosting)
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [`https://challenge-9bd86.web.app/`](https://challenge-9bd86.web.app/) to view it in your **`mobile app`**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Technologies Used
 
-### `npm test`
+- JavaScript
+- ReactJS
+- HTML/CSS
+- Firebase
+- Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📱 Project View
 
-### `npm run build`
+<img align="center" src="./assets/LandingPage.png">
+<img align="center" src="./assets/LoginPage.png">
+<img align="center" src="./assets/CartPage.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-### `npm run eject`
+**Clone the project and access the folder**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+$ git clone https://github.com/TAYYABAW/Dexify.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+$ cd Dexify
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Follow the steps below**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Install the dependencies
+$ yarn 
+# or 
+$ npm install
 
-## Learn More
+# Run the web app
+$ yarn start 
+# or 
+$ npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤔 How to contribute
 
-### Code Splitting
+**Follow the steps below**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone your fork
+$ git clone https://github.com/TAYYABAW/Dexify.git
 
-### Analyzing the Bundle Size
+$ cd Dexify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Create a branch with your feature
+$ git checkout -b your-feature
 
-### Making a Progressive Web App
+# Make the commit with your changes
+$ git commit -m 'feat: Your new feature'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Send the code to your remote branch
+$ git push origin your-feature
+```
 
-### Advanced Configuration
+After your pull request is merged, you can delete your branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is under the MIT license. See the [LICENSE](https://github.com/TAYYABAW/Dexify/blob/master/LICENSE) for more information.
